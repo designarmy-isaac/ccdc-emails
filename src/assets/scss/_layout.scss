@@ -1,0 +1,89 @@
+$letter-spacing: .5px;
+$letter-spacing-more: 2.5px;
+
+.header {
+  padding-top: 24px;
+  h1, p {
+    color: $primary-color;
+    margin-bottom: 0;
+  }
+  p {
+    font-weight: bold;
+    letter-spacing: $letter-spacing;
+  }
+}
+
+.button a {
+  letter-spacing: $letter-spacing-more;
+}
+
+table {
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+  }
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+.body-section {
+  border: 1px solid $medium-gray;
+  p {
+    letter-spacing: $letter-spacing;
+  }
+  .content {
+    padding: 12px;
+  }
+}
+
+.body-section-text-section {
+  border-top: 6px solid $black;
+  min-height: 295px;
+  th {
+    padding: 6px 12px;
+  }
+}
+
+.highlight,
+.highlight a{
+  color: $primary-color;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: $letter-spacing-more;
+  line-height: 1.5;
+  font-size: 12px;
+  text-decoration: none;
+  &:hover {
+    color: lighten($primary-color, 10%);
+  }
+  span {
+    font-size: 75%;
+    vertical-align: middle;
+  }
+}
+
+hr {
+  background: none;
+  border-top: 1px solid $medium-gray;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+.footer-retailers {
+  text-align: justify;
+  text-align-last: justify;
+  hyphens: none;
+  text-transform: uppercase;
+  letter-spacing: $letter-spacing;
+  text-justify: inter-word;
+  justify-content: 
+}
