@@ -1,0 +1,193 @@
+.logo {
+  width: 291px !important;
+  height: auto;
+}
+.header {
+  padding-top: 24px;
+  color: #e65925;
+  text-align: center;
+  font-weight: bold;
+}
+
+/** * @tab Page *
+@section Main Heading *
+@style Heading 1 */
+
+h1 {
+  color: #e65925;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-left: 0;
+  text-align: center;
+}
+
+/** * @tab Page *
+@section Main Heading *
+@style Subheading 1  */
+
+p.subheading-1 {
+  color: #e65925;
+  font-family: "ITC Avant Garde Gothic", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, "Avenir Next", Avenir, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: .5px;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/** * @tab Page *
+@section Body Headings *
+@style Heading 2 */
+
+h2 {
+  color: #0a0a0a;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1;
+  margin-left: 0;
+  padding-left: 0;
+  text-align: left;
+}
+
+/** * @tab Page *
+@section Body Headings *
+@style Heading 3 */
+
+h3 {
+  color: #0a0a0a;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+  margin-left: 0;
+  padding-left: 0;
+  text-align: left;
+}
+
+/** * @tab Page *
+@section Body Headings *
+@style Heading 4 */
+
+h4 {
+  color: #0a0a0a;
+  font-family: "ITC Avant Garde Gothic", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, "Avenir Next", Avenir, Helvetica, Arial, sans-serif;
+  letter-spacing: .5px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  margin-left: 0;
+  padding-left: 0;
+  text-align: left;
+}
+
+/** * @tab Page *
+@section Body *
+@style Paragraph */
+
+p {
+  color: #0a0a0a;
+  font-family: "ITC Avant Garde Gothic", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, "Avenir Next", Avenir, Helvetica, Arial, sans-serif;
+  letter-spacing: .5px;
+  margin-left: 0;
+  padding-left: 0;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+.button a {
+  letter-spacing: 2.5px;
+}
+strong {
+  font-weight: bold;
+}
+.body-section {
+  border: 1px solid #cacaca;
+}
+
+.body-section .content {
+  padding: 12px;
+}
+.body-section-text-section {
+  border-top: 6px solid #0a0a0a;
+  min-height: 295px;
+}
+.body-section-text-section th {
+  padding: 6px 12px;
+}
+.highlight,
+.highlight a {
+  color: #e65925;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  line-height: 1.5;
+  font-size: 12px;
+  text-decoration: none;
+}
+.highlight:hover,
+.highlight a:hover {
+  color: #e27851;
+}
+.highlight span {
+  font-size: 75%;
+  vertical-align: middle;
+}
+hr {
+  background: none;
+  border-top: 1px solid #cacaca;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+}
+.dark-link {
+  color: #0a0a0a;
+  text-decoration: none;
+}
+.dark-link:hover {
+  text-decoration: underline;
+}
+.footer-retailers {
+  line-height: 2;
+  text-align: justify;
+  text-align-last: justify;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  text-justify: inter-word;
+}
+a.footer-retailer {
+  color: #0a0a0a;
+  text-decoration: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-break: keep-all;
+  word-wrap: normal;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+}
+a.footer-retailer:hover {
+  text-decoration: underline;
+}
+.social-icon {
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+  padding: 4px;
+}
+.footer {
+  background: #f2f2f2;
+}

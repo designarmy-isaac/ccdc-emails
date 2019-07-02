@@ -25,6 +25,7 @@ var CONFIG;
 // Build the "dist" folder by running all of the below tasks
 gulp.task('build',
   gulp.series(clean, pages, sass, images, inline));
+//  gulp.series(clean, pages, sass, images));
 
 // Build emails, run the server, and watch for file changes
 gulp.task('default',
@@ -119,17 +120,17 @@ function inliner(css) {
   var mqCss = siphon(css);
 
   var pipe = lazypipe()
-    .pipe($.inlineCss, {
-      applyStyleTags: false,
-      removeStyleTags: true,
-      preserveMediaQueries: true,
-      removeLinkTags: false
-    })
-    .pipe($.replace, '<!-- <style> -->', `<style>${mqCss}</style>`)
+//    .pipe($.inlineCss, {
+//      applyStyleTags: false,
+//      removeStyleTags: false,
+//      preserveMediaQueries: true,
+//      removeLinkTags: false
+//    })
+    .pipe($.replace, '<!-- <style> -->', `<style>${css}</style>`)
     .pipe($.replace, '<link rel="stylesheet" type="text/css" href="css/app.css">', '')
     .pipe($.htmlmin, {
-      collapseWhitespace: true,
-      minifyCSS: true
+      collapseWhitespace: false,
+      minifyCSS: false
     });
 
   return pipe();

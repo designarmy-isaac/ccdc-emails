@@ -1,0 +1,331 @@
+.citycenterdc-logo {
+  width: 100%;
+  height: auto;
+  max-width: 291px;
+  max-height: 53px;
+}
+
+// Type
+
+u + #body a {
+  color: inherit;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+a {
+  font-weight: inherit;
+  color: $black;
+}
+
+p a {
+  color: $black;
+  text-decoration: underline;
+}
+
+p a:hover {
+  color: $black;
+  text-decoration: underline;
+  text-decoration-color: $primary-color;
+}
+
+/**
+			* @tab Page
+			* @section Heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1{
+				/*@editable*/ color: $primary-color !important;
+				display:block;
+				/*@editable*/ font-family:$header-font-family;
+				/*@editable*/ font-size:$h1-font-size;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:$header-font-weight;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:0;
+				margin-left:0;
+				/*@editable*/ text-align:center;
+			}
+
+			/**
+			* @tab Page
+			* @section Heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2{
+				/*@editable*/ color:$black !important;
+				display:block;
+				/*@editable*/ font-family:$header-font-family;
+				/*@editable*/ font-size:$h2-font-size;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:$header-font-weight;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:$header-margin-bottom;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section Heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3{
+				/*@editable*/ color:$black !important;
+				display:block;
+				/*@editable*/ font-family:$header-font-family;
+				/*@editable*/ font-size:$h3-font-size;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:$header-font-weight;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:$header-margin-bottom;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section Header Link
+			* @tip Set the styling for links in headers.
+			* @style header link
+			*/
+			h2 a,
+      h3 a,
+      h4 a {
+				/*@editable*/ color:$black !important;
+				/*@editable*/ font-family:$header-font-family;
+				font-size:inherit;
+        /*@editable*/ text-decoration: underline;
+			}
+      h2 a:hover,
+      h3 a:hover,
+      h4 a:hover {
+        color: lighten($black, 20%);
+      }
+      /**
+			* @tab Page
+			* @section Body
+			* @tip Set the styling for body paragraphs.
+			* @style paragraph
+			*/
+      p {
+        /*@editable*/ color: $black;
+        display: block;
+				/*@editable*/ font-family:$body-font-family;
+				/*@editable*/ font-size:$global-font-size;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:$global-font-weight;
+				/*@editable*/ line-height:$body-line-height;
+				/*@editable*/ letter-spacing:.5px;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:$paragraph-margin-bottom;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+      }
+
+      /**
+			* @tab Page
+			* @section Subhead 1
+			* @tip Set the styling for subheader.
+			* @style paragraph
+			*/
+      p.subheader-1 {
+        /*@editable*/ color: $primary-color !important;
+				display:block;
+				/*@editable*/ font-family:$body-font-family;
+				/*@editable*/ font-size:$h4-font-size;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:$header-font-weight;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ letter-spacing:normal;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:0;
+				margin-left:0;
+				/*@editable*/ text-align:center;
+        a, span {
+          color: $primary-color !important;
+          text-decoration-color: $primary-color;
+          font-family: inherit;
+        }
+      }
+
+      /**
+			* @tab Page
+			* @section Highlight
+			* @tip Set the styling for subheader.
+			* @style highlight
+			*/
+      .highlight {
+        /*@editable*/ color: $primary-color !important;
+				display:block;
+				/*@editable*/ font-family:$body-font-family;
+				/*@editable*/ font-size:12px;
+				/*@editable*/ font-style:normal;
+				/*@editable*/ font-weight:$header-font-weight;
+				/*@editable*/ line-height:1.5;
+				/*@editable*/ letter-spacing:1.5px;
+        /*@editable*/ text-transform: uppercase;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:0;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+      }
+      .highlight a {
+        color: $primary-color;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      .highlight a:hover {
+        color: lighten($primary-color, 10%);
+        font-weight: bold;
+        text-decoration: none;
+      }
+      /**
+			* @tab Page
+			* @section CTA Arrow
+			* @tip Set the styling for CTA Arrows.
+			* @style cta arrow
+			*/
+      .cta-arrow {
+        /*@editable*/ color: $primary-color;
+        /*@editable*/ font-size: 10px;
+        /*@editable*/ vertical-align: text-top;
+        /*@editable*/ margin-left: 2px;
+      }
+
+      /**
+        @tab Page
+        @section CTA Link
+        @tip Set the styling for CTA Links.
+        @style cta link
+        */
+          .cta-link{
+            margin:0;
+            /*@editable*/color: $primary-color;
+            /*@editable*/font-family: $body-font-family;
+            /*@editable*/font-weight:bold;
+            line-height:1;
+            /*@editable*/padding:0;
+            /*@editable*/text-align:left;
+            /*@editable*/text-decoration:none;
+          }
+
+        /**
+        @tab Page
+        @section Footer Retailers
+        @tip Set the styling for footer retailers.
+        @style footer retailer
+        */ 
+          .footer-retailers a {
+           -webkit-hyphens:none;
+            margin:0;
+            /*@editable*/color:$black;
+            display:inline-block;
+            /*@editable*/font-family:$body-font-family;
+            font-weight:inherit;
+            /*@editable*/line-height:1;
+            padding:0;
+            text-align:left;
+            text-decoration:none;
+            white-space:nowrap;
+            word-wrap:normal;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+
+          .footer-retailers {
+            font-size: 85%;
+            line-height: 2;
+            text-align: justify;
+            text-align-last: justify;
+            text-transform: uppercase;
+            letter-spacing: .5px;
+            text-justify: inter-word;
+          }
+//          a.footer-retailer {
+//            color: #0a0a0a;
+//            text-decoration: none;
+//            display: inline-block;
+//            white-space: nowrap;
+//            word-break: keep-all;
+//            word-wrap: normal;
+//            -webkit-hyphens: none;
+//            -moz-hyphens: none;
+//            hyphens: none;
+//          }
+//          a.footer-retailer:hover {
+//            text-decoration: underline;
+//          }
+
+
+        /**
+        @tab Page
+        @section Custom Button
+        @tip Set the styling for custom buttons.
+        @style custom button
+        */
+          .custom-button,
+          u + #body .custom-button {
+            margin:0;
+            /*@editable*/border:0 solid $primary-color;
+            /*@editable*/border-radius:0;
+            /*@editable*/color:$white;
+            display:inline-block;
+            /*@editable*/font-family:$body-font-family;
+            /*@editable*/font-size:14px;
+            /*@editable*/font-weight:bold;
+            /*@editable*/letter-spacing: 3px;
+            line-height:1;
+            padding-top:9px 20px 8px 20px;
+            text-align:center;
+            text-decoration:none;
+          }
+
+// Body Sections
+
+.body-block {
+  border: 1px solid $medium-gray;
+}
+
+.callout {
+  border-top: 5px solid $black;
+}
+
+hr {
+  background: none;
+  border-top: 1px solid #cacaca;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+}
+
+.social-icon {
+  width: 32px;
+  display: inline-block;
+  padding: 4px;
+}
+.footer {
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+}
